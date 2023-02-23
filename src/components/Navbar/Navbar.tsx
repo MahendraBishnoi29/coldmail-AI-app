@@ -3,12 +3,12 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-16 p-3 w-5/6 border-b-4 m-auto">
-      <h1 className="text-2xl md:text-2xl lg:text-3xl font-bold cursor-pointer">
-        Cold<span className="text-indigo-600">Mail</span>.ai
+    <nav className="flex justify-between items-center w-5/6 sm:w-11/12 mt-5 border-b-[4px] border-gray-200 pb-6 mx-auto sm:px-10">
+      <h1 className="text-4xl md:text-3xl lg:text-3xl sm:text-3xl font-bold cursor-pointer">
+        Cold<span className="text-blue-600">Mail</span>.ai
       </h1>
 
-      <div className="flex gap-3">
+      <div className="flex gap-4">
         <Link
           href="https://github.com/MahendraBishnoi29/coldmail-AI-app"
           target="_blank"
