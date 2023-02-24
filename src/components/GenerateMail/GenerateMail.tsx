@@ -11,8 +11,6 @@ const GenerateMail = (props: Props) => {
   const [email, setEmail] = useState("");
   const [generatedEmails, setGeneratedEmails] = useState<String>("");
 
-  console.log("Streamed Response: " + generatedEmails);
-
   const prompt = `write an eye catchy and solid cold email to the recruiter for a any Developer position. for any skills and experience and base it on this context:${email}`;
 
   const generateEmail = async (e: any) => {
