@@ -10,8 +10,7 @@ const Header = () => {
         </h1>
         <p className="text-base sm:text-base lg:text-xl mx-auto lg:max-w-2xl sm:max-w-md md:max-w-xl mt-5 sm:mt-3 font-semibold text-gray-500">
           Let our web app revolutionize your job search with personalized cold
-          emails that make a lasting impression on employers. Say goodbye to
-          generic templates and hello to your dream job.
+          emails that make a lasting impression on employers.
         </p>
       </div>
     </div>
