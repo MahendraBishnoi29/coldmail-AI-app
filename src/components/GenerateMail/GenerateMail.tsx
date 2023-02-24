@@ -122,6 +122,12 @@ const GenerateMail = (props: Props) => {
             Your generated Email
           </h2>
 
+          <p className="text-slate-500 mb-2">
+            ⚠ this Email is not formatted here but don&apos;t worry just
+            copy(click on it) and paste it anywhere and you&apos;re good to go
+            :)
+          </p>
+
           <div className="md:max-w-xl lg:max-w-4xl">
             {generatedEmails
               .split(" ")
