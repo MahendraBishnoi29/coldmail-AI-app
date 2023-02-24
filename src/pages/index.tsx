@@ -3,6 +3,8 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Header from "@/components/Header/Header";
+import GenerateMail from "@/components/GenerateMail/GenerateMail";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,8 +35,12 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Navbar />
-      <main className="p-5">
-        <Header />
+      <main className="p-5 flex flex-col items-center gap-4">
+        <div className="w-full">
+          <Header />
+        </div>
+        <GenerateMail />
+        <Footer />
       </main>
     </>
   );
