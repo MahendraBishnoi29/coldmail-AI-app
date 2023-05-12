@@ -1,10 +1,9 @@
-import Head from "next/head";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
-import Navbar from "@/components/Navbar/Navbar";
-import Header from "@/components/Header/Header";
-import GenerateMail from "@/components/GenerateMail/GenerateMail";
 import Footer from "@/components/Footer/Footer";
+import GenerateMail from "@/components/GenerateMail/GenerateMail";
+import Header from "@/components/Header/Header";
+import Navbar from "@/components/Navbar/Navbar";
+import { Inter } from "@next/font/google";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
